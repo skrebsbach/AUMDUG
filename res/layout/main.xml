@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headerbg"
+        android:padding="7dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/aumdug_heder_logo_215x50" />
+
+        <ImageView
+            android:id="@+id/dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/squares_32px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/dropdown"
+            android:text="EVENTS "
+            android:textColor="#CF5300"
+            android:textSize="23dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/eventbtnbg"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="UPCOMING"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selectedeventbtnbg"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="PREVIOUS"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/eventbtnbg"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="ALL"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/appbackground"></LinearLayout>
+</LinearLayout>
